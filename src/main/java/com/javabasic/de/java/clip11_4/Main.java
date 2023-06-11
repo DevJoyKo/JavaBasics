@@ -25,6 +25,18 @@ public class Main {
             System.out.println(name  + "("+breed+") is barking");
         }
     }
+    static class Giraffe extends Animal {
+
+        Giraffe(String name) {
+            super(name);
+        }
+
+        @Override
+        public void cry(){
+            super.cry();
+            System.out.println(name + " cannot cry.");
+        }
+    }
     static class Cat extends Animal {
         Cat(String name) {
             super(name);
@@ -40,6 +52,8 @@ public class Main {
         animal.cry();
 //        animal.bark(); - 자식의 메서드 사용불가
 
+        Animal giraffe = new Giraffe("기린");
+        giraffe.cry();
 
 
     }
