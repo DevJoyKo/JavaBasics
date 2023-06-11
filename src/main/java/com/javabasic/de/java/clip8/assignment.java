@@ -1,4 +1,4 @@
-package com.fastcampus.de.java.clip8;
+package com.javabasic.de.java.clip8;
 
 public class assignment {
     public static void main(String[] args){
