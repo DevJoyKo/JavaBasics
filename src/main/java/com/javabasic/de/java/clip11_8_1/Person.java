@@ -1,4 +1,4 @@
-package com.javabasic.de.java.clip12;
+package com.javabasic.de.java.clip11_8_1;
 
 public abstract class Person {
     String name;
