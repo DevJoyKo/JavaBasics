@@ -7,6 +7,7 @@ import java.util.Date;
 
 public class Compatibility {
     public static void main(String[] args) {
+
         System.out.println(LocalDateTime.ofInstant(new Date().toInstant(), ZoneId.systemDefault()));
     }
 }
